@@ -287,10 +287,7 @@ img {
 }
 
 .social-links {
-    width: 206px;
-    height: 44px;
-    margin-top: 16px;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 /* Section - Portfolio menu */
