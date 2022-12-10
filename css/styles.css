@@ -143,6 +143,14 @@ img {
 
 .dark-bg {
     background: #2f303a;
+    background-size: 100% 100%;
+}
+
+.slider-bg {
+    background-image: url('../images/bgbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .slider {
