@@ -288,6 +288,8 @@ img {
 
 .social-links {
     align-items: center;
+    padding-bottom: 30px;
+    gap: 10;
 }
 
 /* Section - Portfolio menu */
