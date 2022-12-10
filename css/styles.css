@@ -222,7 +222,9 @@ img {
 }
 
 .articles-icon {
-    object-position: center;
+    position: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* Section - What We Do */
