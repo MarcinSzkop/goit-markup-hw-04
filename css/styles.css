@@ -286,6 +286,15 @@ img {
     padding-bottom: 30px;
 }
 
+.social-links {
+    width: 206px;
+    height: 44px;
+    padding-top: 16;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
 /* Section - Portfolio menu */
 
 .portfolio-menu {
