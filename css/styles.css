@@ -145,6 +145,11 @@ img {
     margin-right: 10px;
   }
 
+.contact-icon a:hover,
+.contact-icon a:focus {
+    color: var(--primary-color);
+}
+
 /* Slider */
 
 .dark-bg {
