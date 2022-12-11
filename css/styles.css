@@ -145,8 +145,13 @@ img {
     margin-right: 10px;
   }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.nav-contact-email:hover,
+.nav-contact-email:focus {
+    fill: var(--primary-color);
+}
+
+.nav-contact-phone:hover,
+.nav-contact-phone:focus {
     fill: var(--primary-color);
 }
 
@@ -154,14 +159,16 @@ img {
 
 .dark-bg {
     background: #2f303a;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 .slider-bg {
     background-image: url('../images/bgbanner.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1600px;
 }
 
 .slider {
@@ -317,6 +324,20 @@ img {
 
 .our-team-social-icon-svg {
     fill: #AFB1B8;
+    padding: 12px;
+}
+
+.our-team-social-icon-svg:hover,
+.our-team-social-icon-svg:focus {
+    fill: var(--quaternary-color);
+}
+
+.icon-svg-bg:hover {
+    background-image: url(/images/Ellipse.svg);
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    gap: 10px;
 }
 
 /* Section - Portfolio menu */
