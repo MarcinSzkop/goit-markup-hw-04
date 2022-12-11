@@ -390,7 +390,8 @@ img {
     object-fit: contain;
 }
 
-.icon:hover {
+.icon:hover,
+.icon:focus {
     fill: #03a9f4;
 }
 
