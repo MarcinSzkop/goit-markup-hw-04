@@ -332,7 +332,8 @@ img {
     fill: var(--quaternary-color);
 }
 
-.icon-svg-bg:hover {
+.icon-svg-bg:hover,
+.icon-svg-bg:focus {
     background-image: url(../images/Ellipse.svg);
     background-repeat: no-repeat;
     width: 44px;
@@ -405,6 +406,10 @@ img {
     margin-top: 50px;
 }
 
+.our-customers-bg:hover {
+    border: 1px solid var(--primary-color);
+}
+
 .our-customers-list {
     list-style: none;
     display: flex;
@@ -415,6 +420,10 @@ img {
 .icon-customers {
     padding: 16px 32px 16px 32px;
     object-fit: contain;
+}
+
+.icon-customers:hover {
+    fill: var(--primary-color);
 }
 
 /* Section - Portfolio */
@@ -546,7 +555,8 @@ img {
     display: flex;
 }
 
-.footer-social-icon-bg:hover {
+.footer-social-icon-bg:hover,
+.footer-social-icon-bg:focus {
         background-image: url(../images/Ellipse.svg);
         background-repeat: no-repeat;
         width: 44px;
