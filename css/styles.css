@@ -145,9 +145,9 @@ img {
     margin-right: 10px;
   }
 
-.contact-icon a:hover,
-.contact-icon a:focus {
-    color: var(--primary-color);
+.contact-icon:hover,
+.contact-icon:focus {
+    fill: var(--primary-color);
 }
 
 /* Slider */
@@ -224,11 +224,13 @@ img {
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .articles-icon {
-    padding: 33px 100px 33px 100px;
-    object-fit: contain;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
@@ -254,7 +256,7 @@ img {
     color: var(--tertiary-color);
 }
 
-/* Section - Out team */
+/* Section - Our team section */
 
 .our-team-section-bg {
     background: #f5f4fa;
@@ -306,10 +308,15 @@ img {
     padding-bottom: 30px;
 }
 
-.social-links {
-    align-items: center;
+.our-team-social-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     padding-bottom: 30px;
-    gap: 10;
+}
+
+.our-team-social-icon-svg {
+    fill: #AFB1B8;
 }
 
 /* Section - Portfolio menu */
@@ -384,15 +391,9 @@ img {
     gap: 30px;
 }
 
-.icon {
-    fill: #AFB1B8;
+.icon-customers {
     padding: 16px 32px 16px 32px;
     object-fit: contain;
-}
-
-.icon:hover,
-.icon:focus {
-    fill: #03a9f4;
 }
 
 /* Section - Portfolio */
@@ -493,4 +494,24 @@ img {
 .footer a:hover,
 .footer a:focus {
     color: var(--primary-color);
+}
+
+.footer-joinus-box {
+    padding-top: 12px;
+}
+
+.footer-joinus-heading {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--quaternary-color);
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-icon-svg {
+    fill: var(--quaternary-color);
 }
