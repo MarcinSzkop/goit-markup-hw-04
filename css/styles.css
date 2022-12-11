@@ -388,6 +388,7 @@ img {
     display: flex;
     justify-content: center;
     fill: #AFB1B8;
+    padding: 16px 32px 16px 32px;
 }
 
 .icon:hover {
