@@ -227,6 +227,10 @@ img {
 }
 
 .articles-icon {
+    display: flex;
+    justify-content;
+    padding: 33px 100px 33px 100px;
+    object-fit: contain;
 }
 
 
