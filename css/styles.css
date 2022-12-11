@@ -387,6 +387,7 @@ img {
     height: 60px;
     fill: #AFB1B8;
     padding: 16px 32px 16px 32px;
+    object-fit: fill;
 }
 
 .icon:hover {
