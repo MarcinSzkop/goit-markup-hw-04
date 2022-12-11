@@ -333,7 +333,7 @@ img {
 }
 
 .icon-svg-bg:hover {
-    background-image: url(/images/Ellipse.svg);
+    background-image: url(../images/Ellipse.svg);
     background-repeat: no-repeat;
     width: 44px;
     height: 44px;
@@ -547,7 +547,7 @@ img {
 }
 
 .footer-social-icon-bg:hover {
-        background-image: url(/images/Ellipse.svg);
+        background-image: url(../images/Ellipse.svg);
         background-repeat: no-repeat;
         width: 44px;
         height: 44px;
