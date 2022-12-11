@@ -323,6 +323,7 @@ img {
 }
 
 .our-team-social-icon-svg {
+    display: flex;
     fill: #AFB1B8;
     padding: 12px;
 }
