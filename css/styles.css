@@ -4,6 +4,7 @@
     --tertiary-color: #212121;
     --quaternary-color: #ffffff;
     --lightpurtple-color: #F5F4FA;
+    --gray-icons-color: #AFB1B8;
 }
 
 h1,
@@ -329,7 +330,7 @@ img {
 
 .our-team-social-icon-svg {
     display: flex;
-    fill: #AFB1B8;
+    fill: var(--gray-icons-color);
     padding: 12px;
 }
 
@@ -425,6 +426,8 @@ img {
 .icon-customers {
     display: flex;
     margin: 16px 32px 16px 32px;
+    fill: var(--gray-icons-color);
+
 }
 
 .icon-customers:hover {
