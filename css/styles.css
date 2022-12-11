@@ -424,7 +424,7 @@ img {
 }
 
 .icon-customers:hover {
-    float: var(--primary-color);
+    fill: var(--primary-color);
 }
 
 
