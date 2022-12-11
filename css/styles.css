@@ -550,6 +550,7 @@ img {
 
 .footer-social-icon-svg {
     fill: var(--quaternary-color);
+    margin: 12px;
 }
 
 .dark-bg > .container {
