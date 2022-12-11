@@ -169,6 +169,7 @@ img {
     background-repeat: no-repeat;
     width: 100%;
     max-width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4));
 }
 
 .slider {
@@ -426,6 +427,7 @@ img {
 .icon-customers:hover {
     fill: var(--primary-color);
 }
+
 
 /* Section - Portfolio */
 
