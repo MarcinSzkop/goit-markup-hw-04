@@ -497,14 +497,19 @@ img {
 }
 
 .footer-joinus-box {
+    width: 206px;
+    height: 80px;
     padding-top: 12px;
+    margin-left: 70px;
 }
 
 .footer-joinus-heading {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 14px;
     color: var(--quaternary-color);
+    margin-top: 72px;
 }
 
 .footer-social-icons {
@@ -515,3 +520,8 @@ img {
 .footer-social-icon-svg {
     fill: var(--quaternary-color);
 }
+
+.dark-bg > .container {
+    display: flex;
+}
+
