@@ -334,8 +334,8 @@ img {
 
 .icon-svg-bg:hover,
 .icon-svg-bg:focus {
-    background-image: url(../images/Ellipse.svg);
-    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+    border-radius: 50%;
     width: 44px;
     height: 44px;
     gap: 10px;
