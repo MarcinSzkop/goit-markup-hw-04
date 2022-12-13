@@ -164,13 +164,11 @@ img {
 }
 
 .slider-bg {
-    background-image: url('../images/bgbanner.jpg');
-    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bgbanner.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
     max-width: 1600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4));
 }
 
 .slider {
@@ -241,11 +239,6 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
-.articles-icon:hover {
-    fill: var(--primary-color)
-}
-
 
 /* Section - What We Do */
 
@@ -430,7 +423,8 @@ img {
 
 }
 
-.icon-customers:hover {
+.icon-customers:hover,
+.icon-customers:focus {
     fill: var(--primary-color);
 }
 
@@ -553,7 +547,6 @@ img {
     font-weight: 700;
     font-size: 14px;
     color: var(--quaternary-color);
-    margin-top: 72px;
 }
 
 .footer-social-icons {
@@ -570,10 +563,17 @@ img {
     display: flex;
 }
 
+.footer-social-icon-bg {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+}
+
 .footer-social-icon-bg:hover,
 .footer-social-icon-bg:focus {
-        background-image: url(../images/Ellipse.svg);
-        background-repeat: no-repeat;
+        border-radius: 50%;
+        background-color: var(--primary-color);
         width: 44px;
         height: 44px;
         gap: 10px;
