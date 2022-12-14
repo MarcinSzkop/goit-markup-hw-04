@@ -378,7 +378,8 @@ img {
     padding-right: 22px;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus {
     color: var(--quaternary-color);
     background-color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -410,6 +411,7 @@ img {
     border: 1px solid var(--primary-color);
 }
 
+
 .our-customers-list {
     list-style: none;
     display: flex;
@@ -427,7 +429,6 @@ img {
 .icon-customers:focus {
     fill: var(--primary-color);
 }
-
 
 /* Section - Portfolio */
 
@@ -559,7 +560,7 @@ img {
     margin: 12px;
 }
 
-.dark-bg > .container {
+.footer > .container {
     display: flex;
 }
 
