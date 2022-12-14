@@ -137,11 +137,13 @@ img {
     color: var(--primary-color);
 }
 
+
 .box-frame {
     border: 1px solid #ECECEC;
 }
 
 .contact-icon {
+    fill: var(--secundary-color);
     vertical-align: middle;
     margin-right: 10px;
   }
@@ -155,6 +157,7 @@ img {
 .nav-contact-phone:focus {
     fill: var(--primary-color);
 }
+
 
 /* Slider */
 
