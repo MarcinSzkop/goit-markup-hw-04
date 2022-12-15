@@ -400,6 +400,7 @@ img {
 .our-customers-bg:hover,
 .our-customers-bg:focus {
     border-color: var(--primary-color);
+    cursor: pointer;
 }
 
 .our-customers-list {
@@ -556,10 +557,10 @@ img {
 
 .footer-social-icon-bg:hover,
 .footer-social-icon-bg:focus {
-        border-radius: 50%;
-        background-color: var(--primary-color);
-        width: 44px;
-        height: 44px;
-        gap: 10px;
-        cursor: pointer;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    width: 44px;
+    height: 44px;
+    gap: 10px;
+    cursor: pointer;
 }
