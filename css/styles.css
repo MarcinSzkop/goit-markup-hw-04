@@ -353,6 +353,8 @@ img {
     transition-duration: 0.4s;
     padding-left: 22px;
     padding-right: 22px;
+    width: 121px;
+    height: 38px;
 }
 
 .button-portfolio:hover,
