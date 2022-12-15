@@ -105,7 +105,7 @@ img {
 .nav-contact:hover,
 .nav-contact:focus {
     color: var(--primary-color);
-    fill: currentColor var(--primary-color);
+    fill: currentColor;
 }
 
 .menu a {
@@ -136,7 +136,6 @@ img {
 }
 
 .contact-icon {
-    fill: var(--secundary-color);
     vertical-align: middle;
     margin-right: 10px;
   }
@@ -398,13 +397,11 @@ img {
     gap: 30px;
 }
 
-
 .icon-customers {
     display: flex;
     margin: 16px 32px 16px 32px;
     fill: var(--gray-icons-color);
 }
-
 
 /* Section - Portfolio */
 
