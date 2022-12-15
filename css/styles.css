@@ -392,28 +392,19 @@ img {
     margin-top: 50px;
 }
 
-.our-customers-bg:hover {
-    border: 1px solid var(--primary-color);
-}
-
-
 .our-customers-list {
     list-style: none;
     display: flex;
     gap: 30px;
 }
 
+
 .icon-customers {
     display: flex;
     margin: 16px 32px 16px 32px;
     fill: var(--gray-icons-color);
-
 }
 
-.icon-customers:hover,
-.icon-customers:focus {
-    fill: var(--primary-color);
-}
 
 /* Section - Portfolio */
 
