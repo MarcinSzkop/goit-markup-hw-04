@@ -392,6 +392,16 @@ img {
     margin-top: 50px;
 }
 
+.our-customers-bg:hover svg,
+.our-customers-bg:focus svg {
+    fill: var(--primary-color);
+}
+
+.our-customers-bg:hover,
+.our-customers-bg:focus {
+    border-color: var(--primary-color);
+}
+
 .our-customers-list {
     list-style: none;
     display: flex;
