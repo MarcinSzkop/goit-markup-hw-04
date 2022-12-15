@@ -145,15 +145,12 @@ img {
 
 .dark-bg {
     background: #2f303a;
-    background-size: 100%;
 }
 
 .slider-bg {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bgbanner.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1600px;
 }
 
 .slider {
@@ -314,16 +311,11 @@ img {
 
 .our-team-social-icon-svg:hover,
 .our-team-social-icon-svg:focus {
-    fill: var(--quaternary-color);
-}
-
-.icon-svg-bg:hover,
-.icon-svg-bg:focus {
     background-color: var(--primary-color);
+    fill: var(--quaternary-color);
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    gap: 10px;
 }
 
 /* Section - Portfolio menu */
